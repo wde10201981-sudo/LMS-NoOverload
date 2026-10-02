@@ -1,0 +1,81 @@
+{
+  "original_sha256": "bb51c4c158e193e6f838736eb0281487c9d377532d9bb7197a9856fd2d06e501",
+  "patched_sha256": "3d2c0330b28fdb56e1ec8fe3a25b9a88f0b33638fb5924e5cf802832bb13114b",
+  "metadata_sha256": "b9a9f2d1abe048a9602d6bd220b7ca1c84da4772e868ae0e25901cc6ad188597",
+  "file_size": 41847808,
+  "patches": [
+    {
+      "name": "Main mowing overload branch",
+      "offset": 3984911,
+      "original": "0f87c2000000",
+      "replacement": "e9c300000090",
+      "rva": "0x3ce60f"
+    },
+    {
+      "name": "Standalone overload branch",
+      "offset": 3978135,
+      "original": "0f87cb000000",
+      "replacement": "e9cc00000090",
+      "rva": "0x3ccb97"
+    },
+    {
+      "name": "Disable engine red-zone damage",
+      "offset": 3978368,
+      "original": "40",
+      "replacement": "c3",
+      "rva": "0x3ccc80"
+    },
+    {
+      "name": "Zero instantaneous cutting engine load",
+      "offset": 6167200,
+      "original": "40534883ec70",
+      "replacement": "0f57c0c39090",
+      "rva": "0x5e32a0"
+    },
+    {
+      "name": "Zero mower engine load getter",
+      "offset": 3995488,
+      "original": "40534883ec20",
+      "replacement": "0f57c0c39090",
+      "rva": "0x3d0f60"
+    },
+    {
+      "name": "Skip cut-quality overload subtraction",
+      "offset": 3970324,
+      "original": "7618",
+      "replacement": "eb18",
+      "rva": "0x3cad14"
+    },
+    {
+      "name": "Skip inline cut-quality overload subtraction",
+      "offset": 3998366,
+      "original": "7626",
+      "replacement": "eb26",
+      "rva": "0x3d1a9e"
+    }
+  ],
+  "previous_sha256": "bf99ee4be7b43b18f6186fcb5d8d23e5f404be793eed17f6d7b7b15873fa59ad",
+  "previous_patches": [
+    {
+      "name": "Main mowing overload branch",
+      "offset": 3984911,
+      "original": "0f87c2000000",
+      "replacement": "e9c300000090",
+      "rva": "0x3ce60f"
+    },
+    {
+      "name": "Standalone overload branch",
+      "offset": 3978135,
+      "original": "0f87cb000000",
+      "replacement": "e9cc00000090",
+      "rva": "0x3ccb97"
+    },
+    {
+      "name": "Disable engine red-zone damage",
+      "offset": 3978368,
+      "original": "40",
+      "replacement": "c3",
+      "rva": "0x3ccc80"
+    }
+  ]
+}

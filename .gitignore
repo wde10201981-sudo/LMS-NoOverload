@@ -1,0 +1,13 @@
+*.dll
+*.exe
+*.dat
+*.assets
+*.resS
+*.resource
+*.bak
+*.tmp
+*.zip
+__pycache__/
+.env
+upload/
+saves/

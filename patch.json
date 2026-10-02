@@ -1,0 +1,193 @@
+{
+  "original_sha256": "bb51c4c158e193e6f838736eb0281487c9d377532d9bb7197a9856fd2d06e501",
+  "patched_sha256": "087666034049c1549816bdd6003c070c3bcfa151f096895ac06098ca1a90ea9a",
+  "metadata_sha256": "b9a9f2d1abe048a9602d6bd220b7ca1c84da4772e868ae0e25901cc6ad188597",
+  "file_size": 41847808,
+  "patches": [
+    {
+      "name": "Main mowing overload branch",
+      "offset": 3984911,
+      "original": "0f87c2000000",
+      "replacement": "e9c300000090",
+      "rva": "0x3ce60f"
+    },
+    {
+      "name": "Standalone overload branch",
+      "offset": 3978135,
+      "original": "0f87cb000000",
+      "replacement": "e9cc00000090",
+      "rva": "0x3ccb97"
+    },
+    {
+      "name": "Disable engine red-zone damage",
+      "offset": 3978368,
+      "original": "40",
+      "replacement": "c3",
+      "rva": "0x3ccc80"
+    },
+    {
+      "name": "Zero instantaneous cutting engine load",
+      "offset": 6167200,
+      "original": "40534883ec70",
+      "replacement": "0f57c0c39090",
+      "rva": "0x5e32a0"
+    },
+    {
+      "name": "Zero mower engine load getter",
+      "offset": 3995488,
+      "original": "40534883ec20",
+      "replacement": "0f57c0c39090",
+      "rva": "0x3d0f60"
+    },
+    {
+      "name": "Skip cut-quality overload subtraction",
+      "offset": 3970324,
+      "original": "7618",
+      "replacement": "eb18",
+      "rva": "0x3cad14"
+    },
+    {
+      "name": "Skip inline cut-quality overload subtraction",
+      "offset": 3998366,
+      "original": "7626",
+      "replacement": "eb26",
+      "rva": "0x3d1a9e"
+    },
+    {
+      "name": "Quadruple cutting radius stub",
+      "offset": 30623070,
+      "original": "000000000000000000000000000000000000",
+      "replacement": "f30f104018f30f58c0f30f58c0e91fd88afe"
+    },
+    {
+      "name": "Quadruple cutting radius hook",
+      "offset": 6167946,
+      "original": "f30f104018",
+      "replacement": "e9cf277501"
+    },
+    {
+      "name": "Quadruple horizontal blade spacing around deck center stub",
+      "offset": 30623088,
+      "original": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "replacement": "f30f58dbf30f106740f3410f5c26f30f5cdcf30f58c9f30f106748f3410f5c6608f30f5cccf30f58dbf30f106740f3410f5c26f30f5cdcf30f58c9f30f106748f3410f5c6608f30f5cccf30f115c2440e911d18afe"
+    },
+    {
+      "name": "Quadruple horizontal blade spacing around deck center hook",
+      "offset": 6166224,
+      "original": "f30f115c2440",
+      "replacement": "e99b2e750190"
+    },
+    {
+      "name": "Protect flowers and finable mowables stub",
+      "offset": 30623173,
+      "original": "000000000000000000000000000000000000000000000000000000",
+      "replacement": "84d2750c80791d00751080794000750a4053564157e9366168fec3"
+    },
+    {
+      "name": "Protect flowers and finable mowables hook",
+      "offset": 3909392,
+      "original": "4053564157",
+      "replacement": "e9b09e9701"
+    },
+    {
+      "name": "Expose code in existing executable section padding",
+      "offset": 600,
+      "original": "5efda301",
+      "replacement": "e0fda301"
+    }
+  ],
+  "previous_sha256": "5b02d4256829b61fd4f9bc0945a998f466062d991ea26a5167925de0bb567ebc",
+  "previous_patches": [
+    {
+      "name": "Main mowing overload branch",
+      "offset": 3984911,
+      "original": "0f87c2000000",
+      "replacement": "e9c300000090",
+      "rva": "0x3ce60f"
+    },
+    {
+      "name": "Standalone overload branch",
+      "offset": 3978135,
+      "original": "0f87cb000000",
+      "replacement": "e9cc00000090",
+      "rva": "0x3ccb97"
+    },
+    {
+      "name": "Disable engine red-zone damage",
+      "offset": 3978368,
+      "original": "40",
+      "replacement": "c3",
+      "rva": "0x3ccc80"
+    },
+    {
+      "name": "Zero instantaneous cutting engine load",
+      "offset": 6167200,
+      "original": "40534883ec70",
+      "replacement": "0f57c0c39090",
+      "rva": "0x5e32a0"
+    },
+    {
+      "name": "Zero mower engine load getter",
+      "offset": 3995488,
+      "original": "40534883ec20",
+      "replacement": "0f57c0c39090",
+      "rva": "0x3d0f60"
+    },
+    {
+      "name": "Skip cut-quality overload subtraction",
+      "offset": 3970324,
+      "original": "7618",
+      "replacement": "eb18",
+      "rva": "0x3cad14"
+    },
+    {
+      "name": "Skip inline cut-quality overload subtraction",
+      "offset": 3998366,
+      "original": "7626",
+      "replacement": "eb26",
+      "rva": "0x3d1a9e"
+    },
+    {
+      "name": "Double cutting radius stub",
+      "offset": 30623070,
+      "original": "0000000000000000000000000000",
+      "replacement": "f30f104018f30f58c0e923d88afe"
+    },
+    {
+      "name": "Double cutting radius hook",
+      "offset": 6167946,
+      "original": "f30f104018",
+      "replacement": "e9cf277501"
+    },
+    {
+      "name": "Double horizontal blade spacing around deck center stub",
+      "offset": 30623084,
+      "original": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "replacement": "f30f58dbf30f106740f3410f5c26f30f5cdcf30f58c9f30f106748f3410f5c6608f30f5cccf30f115c2440e93ad18afe"
+    },
+    {
+      "name": "Double horizontal blade spacing around deck center hook",
+      "offset": 6166224,
+      "original": "f30f115c2440",
+      "replacement": "e9972e750190"
+    },
+    {
+      "name": "Protect flowers and finable mowables stub",
+      "offset": 30623132,
+      "original": "000000000000000000000000000000000000000000000000000000",
+      "replacement": "84d2750c80791d00751080794000750a4053564157e95f6168fec3"
+    },
+    {
+      "name": "Protect flowers and finable mowables hook",
+      "offset": 3909392,
+      "original": "4053564157",
+      "replacement": "e9879e9701"
+    },
+    {
+      "name": "Expose code in existing executable section padding",
+      "offset": 600,
+      "original": "5efda301",
+      "replacement": "b7fda301"
+    }
+  ]
+}
